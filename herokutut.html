@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="index.html">
+    <button class="cybr-btn" style="position:absolute; top:10%; left:10%;">
+      Back<span aria-hidden></span>
+      <span aria-hidden class="cybr-btn__glitch">Back</span>
+      <span aria-hidden class="cybr-btn__tag">BCK</span>
+    </button>
+  </a>
+
+
+    <div class='progress'>
+        <div class='progress_inner'>
+          <div class='progress_inner__step'>
+            <label for='step-1'>Prerequisites: Install Git and the Heroku CLI</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-2'>Create a Heroku Remote</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-3'>Deploy Your Code</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-4'>Video tutorial</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-5'>…and you're done!</label>
+          </div>
+          <input checked='checked' id='step-1' name='step' type='radio'>
+          <input id='step-2' name='step' type='radio'>
+          <input id='step-3' name='step' type='radio'>
+          <input id='step-4' name='step' type='radio'>
+          <input id='step-5' name='step' type='radio'>
+          <div class='progress_inner__bar'></div>
+          <div class='progress_inner__bar--set'></div>
+          <div class='progress_inner__tabs'>
+            <div class='tab tab-0'>
+              <h1>Prerequisites: Install Git and the Heroku CLI</h1>
+              <p>Before you can deploy your app to Heroku, initialize a local Git repository and commit your application code to it.</p>
+              <p class="details">The following example demonstrates initializing a Git repository for an app that lives in the <code>example-app</code> directory:</p>
+              <p> ~ $ cd example-app</p>
+              <p> ~ $ git init</p>
+              <p> ~ $ git add .</p>
+              <p> ~ $ git commit -m "My first commit"</p>
+            </div>
+            <div class='tab tab-1'>
+              <h1>Create a Heroku Remote</h1>
+              
+              <p>The <code>heroku create</code> CLI command creates a new empty application on Heroku, along with an associated empty Git repository. If you run this command from your app’s root directory, the empty Heroku Git repository is automatically set as a remote for your local repository.</p>
+              <p> ~ $ heroku create -a example-app</p>
+            </div>
+            <div class='tab tab-2'>
+              <h1>Deploy Your Code</h1>
+              <p>To deploy your app to Heroku, use the <code>git push</code> command to push the code from your local repository’s <a href="https://devcenter.heroku.com/articles/git-branches">main branch</a> to your <code>heroku</code> remote. For example:</p>
+              <p> ~ $ git push heroku main</p>
+            </div>
+            <div class='tab tab-3'>
+              <h1>Video tutorial</h1>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/MxfxiR8TVNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </iframe>
+            </div>
+            <div class='tab tab-4'>
+              <h1>…and you're done!</h1>
+              <p>Congrats! you have just made a heroku page, fire up a browser and go to the heroku link provided in your terminal.</p>
+              
+            </div>
+          </div>
+          <div class='progress_inner__status'>
+            <div class='box_base'></div>
+            <div class='box_lid'></div>
+            <div class='box_ribbon'></div>
+            <div class='box_bow'>
+              <div class='box_bow__left'></div>
+              <div class='box_bow__right'></div>
+            </div>
+            <div class='box_item'></div>
+            <div class='box_tag'></div>
+            <div class='box_string'></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
+

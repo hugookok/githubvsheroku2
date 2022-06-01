@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="index.html">
+    <button class="cybr-btn" style="position:absolute; top:10%; left:10%;">
+      Back<span aria-hidden></span>
+      <span aria-hidden class="cybr-btn__glitch">Back</span>
+      <span aria-hidden class="cybr-btn__tag">BCK</span>
+    </button>
+  </a>
+
+
+    <div class='progress'>
+        <div class='progress_inner'>
+          <div class='progress_inner__step'>
+            <label for='step-1'>Create a repository</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-2'>Clone the repository</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-3'>Hello World</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-4'>Push it</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-5'>…and you're done!</label>
+          </div>
+          <input checked='checked' id='step-1' name='step' type='radio'>
+          <input id='step-2' name='step' type='radio'>
+          <input id='step-3' name='step' type='radio'>
+          <input id='step-4' name='step' type='radio'>
+          <input id='step-5' name='step' type='radio'>
+          <div class='progress_inner__bar'></div>
+          <div class='progress_inner__bar--set'></div>
+          <div class='progress_inner__tabs'>
+            <div class='tab tab-0'>
+              <h1>Create a repository</h1>
+              <p>Head over to GitHub and create a new public repository</a> named <em>username</em>.github.io, where <em>username</em> is your username (or organization name) on GitHub.</p>
+              <p class="details">If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.</p>
+              <img src = "git1.PNG" /> 
+            </div>
+            <div class='tab tab-1'>
+              <h1>Clone the repository</h1>
+              <p>Go to the folder where you want to store your project, and clone the new repository:</p>
+              <p></p>
+              <p> ~ $ git clone https://github.com/username/username.github.io</p>
+            </div>
+            <div class='tab tab-2'>
+              <h1>Hello World</h1>
+              <p>Enter the project folder and add an index.html file; you can also do this without the terminal by making a html file and writing Hello World in it and calling it index.html.</p>
+              <p> ~ $ cd username.github.io</p>
+              <p> ~ $ echo "Hello World" > index.html</p>
+            </div>
+            <div class='tab tab-3'>
+              <h1>Push it</h1>
+              <p>Now that you have made your index.html file you can add, commit, and push your changes:</p>
+              <p> ~ $ git add --all</p>
+              <p> ~ $ git commit -m "Initial commit"</p>
+              <p> ~ $ git push -u origin main</p>
+            </div>
+            <div class='tab tab-4'>
+              <h1>…and you're done!</h1>
+              <p>Congrats! you have just made a github pages server, fire up a browser and go to https://"yourusername".github.io.</p>
+              
+            </div>
+          </div>
+          <div class='progress_inner__status'>
+            <div class='box_base'></div>
+            <div class='box_lid'></div>
+            <div class='box_ribbon'></div>
+            <div class='box_bow'>
+              <div class='box_bow__left'></div>
+              <div class='box_bow__right'></div>
+            </div>
+            <div class='box_item'></div>
+            <div class='box_tag'></div>
+            <div class='box_string'></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
+
